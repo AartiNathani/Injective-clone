@@ -1,0 +1,36 @@
+body {
+  font-family: 'proxima nova';
+  /* line-height: 1.5; */
+  font-weight: 100;
+  color: #232325;
+  src: url('../src/font/Proximanova-fonts-master/Proxima\ Nova\ Alt\ Condensed\ Regular.otf') format('opentype');
+  background-color: #E9EEF6;
+  /* background-image: url(assets/injective-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* font-synthesis: none; */
+  /* text-rendering: optimizeLegibility; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* -webkit-text-size-adjust: 100%; */
+}
+
+/* Font faces with proper weight assignments  */
+@font-face {
+  font-family: 'proxima nova';
+  src: url('../src/font/Proximanova-fonts-master/Proxima\ Nova\ Alt\ Bold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima nova';
+  src: url('../src/font/Proximanova-fonts-master/Proxima\ Nova\ Alt\ Condensed\ Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima nova';
+  src: url('../src/font/Proximanova-fonts-master/Proxima\ Nova\ Alt\ Condensed\ Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}

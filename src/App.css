@@ -1,0 +1,513 @@
+#font-weight-800{
+  font-weight: 800;
+}
+#font-weight-600{
+  font-weight: 600;
+}
+#font-weight-300{
+  font-weight: 300;
+}
+.font-64{
+  line-height: 90%;
+  font-size: 60px;
+}
+.color-lightgray{
+  color: rgb(172, 171, 171);
+}
+.font-20{
+  font-size: 20px;
+}
+
+.app-active-btn{
+  font-weight: 600;
+  background-color: white;
+  color: #343ff5;
+}
+
+.color-blue-underline{
+  color: #343ff5;
+  border: 3px solid #343ff5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+.text-blue-underline{
+  color: #343ff5;
+  border: 3px solid #343ff5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+
+
+
+.color232325{
+  color: #232325;
+}
+/* app css */
+.relative{
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: -15px;
+  right: 0;
+  top: 240px;
+  position: fixed;
+}
+.app-icon-height{
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
+}
+.bgE9EEF6{
+  background-color: #E9EEF6;
+}
+
+/* navbar css */
+.gradient-background-blue{
+  margin-left: 200px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 80px 80px #c2d0e4;
+  /* height: 50px; */
+  /* width: 50px; */
+  /* background-color:#000dff; */
+}
+.gradient-background-blue2{
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px 20px #b6c8e1;
+}
+.hover-content{
+  border-radius: 20px;
+  margin-left: -200px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  /* background-color: red; */
+  width: 600px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.hover-content a{
+  /* background-color: white; */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .hover-content{
+  display: block ;
+}
+
+.hover-content a:hover{
+  background-color: #dedff0;
+}
+.hover-content a:hover .hover-nav-content-icon{
+  background-color: white;
+}
+
+.hover-nav-content-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.dropdown-menu{
+  text-align: center;
+  border: none;
+  margin-left:-100px;
+  background-color: white;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: #dedff0;
+}
+
+.home-logo-height{
+  height: 30px;
+}
+.logo-height{
+  height: 60px;
+}
+.nav-content{
+  margin-right: 100px;
+  justify-content: end;
+  max-width: 1400px;
+}
+.nav-content ul{
+  gap: 1rem;
+}
+.menu-item{
+  /* text-decoration: none; */
+  font-size: 14px;
+  /* margin-top: 8px; */
+}
+.navbtns:hover{
+  color: rgb(44, 44, 171);
+  border: 1px solid rgb(177, 177, 216);
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+
+/* home css */
+
+.margin-start{
+  margin-left: 40px;
+}
+.mini-margin-top{
+  margin-top: 80px;
+}
+.margin-top{
+  margin-top: 100px;
+}
+.home-heading{
+  line-height: 90%;
+  font-weight: 800;
+  font-size: 70px;
+}
+.blockchain-gradient{
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #343ff5, #09dbf5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.hover-blue:hover{
+  color: #343ff5;
+}
+.home-explore-btn{
+  background-color: #E9EEF6;
+}
+
+.uphover-animation{
+  transition-behavior: normal, normal;
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+  transition-property: transform, opacity;
+}
+.uphover-animation:hover{
+  transform: translate3d(0,-5px, 0);
+  opacity: .8;
+}
+
+.btnhover-icon-animation:hover #hover-animation{
+  /* Initial position */
+  transition: transform 0.5s ease; /* Smooth transition for the transform property */
+  }
+
+  /* Keyframes for the infinite slide animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px); /* Move 100px to the right */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  /* Apply the animation on hover */
+.btnhover-icon-animation:hover #hover-animation {
+    animation: slide 3s ease-in-out infinite; /* Infinite slide animation */
+}
+
+.font-18{
+  font-size: 18px;
+}
+.btn-blue{
+  background-color: #343ff5;
+}
+.btn-blue:hover{
+  /* background-color: #5158e1; */
+}
+.bg-343FF5{
+  background-color: #343ff5;
+}
+.bg-7F46AC{
+  background-color: #7f46ac;
+}
+.bg-0BD6EF{
+  background-color: #0bd6ef;
+}
+.bg-342593{
+  background-color: #342593;
+}
+.color-white{
+  color: white;
+}
+.font-10{
+  font-size: 10px;
+}
+.homebox-height{
+  /* gap: 2px; */
+  padding: 10px;
+  margin: 10px;
+  height: 76px;
+  width: 95px;
+}
+
+.plusicon-height{
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.svg-height{
+  height: 30px;
+  width: 30px;
+}
+.font-11{
+  font-size: 11px;
+}
+
+.Home-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 40px;
+  /* margin-top: 60px; */
+}
+
+
+
+
+/* number counting css */
+.number-columns{
+  margin-left: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.binance{
+  height: 80px;
+}
+.jump{
+  height: 40px;
+}
+.cubin{
+  height: 65px;
+}
+.pantera{
+  height: 60px;
+}
+.bg-gradient{
+  background-color: #d4dae4;
+}
+.text-light{
+  color: white;
+}
+
+/* financial apps */
+.injectiveimg-height{
+  height: 400px;
+  /* width: 400px; */
+}
+.color-blue{
+  color: #343ff5;
+}
+
+.btn-focus:focus{
+  background-color: white;
+  color: blue;
+}
+.btn-hover:hover{
+  color: #343ff5;
+}
+
+
+.btn-onclick{
+  color: blue;
+  background-color: white;
+}
+
+.margin-bottom{
+  margin-bottom: 100px;
+}
+.h1{
+  font-size: 50px;
+}
+
+/* discover ecosystem */
+
+.margin-end{
+  width: 80%;
+}
+.discover-ecosystem-btnshover:focus{
+  color: #343ff5;
+  border: 3px solid #343ff5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  /* text-decoration: underline; */
+}
+/* .ecosystem-col-hover{
+  transform-style: preserve-3d;
+  transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+}
+.ecosystem-col-hover:hover{
+  transform: translate(0, -16px, 0);
+  opacity: .8;
+} */
+.padding{
+  padding: 80px;
+}
+#bg-white{
+  background-color: white;
+}
+.bg-set-white{
+  background-color: white;
+}
+.font-12{
+  font-size: 12px;
+}
+.color-gray{
+  color: rgb(101, 101, 101);
+}
+.bg-gray{
+  background-color: #E9EEF6;
+}
+.arrow-height{
+  height: 25px;
+  width: 25px;
+}
+.ecosystemcol-height a div{
+  height: 150px;
+  width: 150px;
+}
+
+
+
+/* featured apps css */
+.featuredApp-logo-height{
+  height: 50px;
+}
+.app-column{
+  background-color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.top-150{
+  top: 150px;
+  position: relative;
+}
+
+/* started injective css */
+.col2-height{
+  height: 350px;
+}
+.col3-height{
+  height: 300px;
+}
+.icon-margin-start{
+  margin-left: 200px;
+}
+.icon-min-marginleft{
+  margin-left: 180px;
+}
+.max-margin-top{
+  margin-top: 160px;
+}
+.bg-blue{
+  background-color: #343ff5;
+}
+.icon-height{
+  height: 50px;
+  width: 50px;
+}
+.mt-minus{
+  margin-top: -100px;
+}
+.bg-A85CFC{
+  background-color: #a85cfc;
+}
+.bg-7646FF{
+  background-color: #7646ff;
+}
+.bg-00AAFF{
+  background-color: #00aaff;
+}
+.start-injective-btnhover:focus{
+  color: #343ff5;
+  border: 2px solid #343ff5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+
+/* discover ecosystem css */
+.border-shadow{
+  width: 300px;
+  border-radius: 20px;
+  margin-top: -10px;
+  padding: 30px;
+  box-shadow: 5px 5px 15px 8px #ced0f9;
+}
+
+/* featured news css */
+.slider-img-height{
+  height: 150px;
+  /* cursor: pointer; */
+}
+/* .slider-img-height:hover{
+  
+} */
+
+/* footer css */
+.bg-lightblue{
+  background-color: #585ed3;
+}
+.font-14{
+  font-size: 14px;
+}
+
+.footer-bottom-padding{
+  padding-bottom: 150px;
+}
+.footer-line-height{
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: relative;
+} */
+
+.hoverup-animation{
+  transition-behavior: normal, normal;
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+  transition-property: transform, opacity;
+}
+.hoverup-animation:hover{
+  transform: translate3d(0,-12px, 0);
+  opacity: .8;
+}
